@@ -89,3 +89,6 @@ local.env
 #############################################
 # End of Terraform Global .gitignore
 #############################################
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
